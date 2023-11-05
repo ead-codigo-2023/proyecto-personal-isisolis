@@ -1,10 +1,12 @@
+/* Estilos generales para todo el documento */
 body {
   background-color: black;
-  font-family: sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* Estilos para el encabezado (header) */
 header {
   background-color: black;
   height: 100px;
@@ -15,17 +17,18 @@ header {
 .img-portada {
   width: 100%;
   height: 50vh;
-  border-radius:  25% 10%;
+  border-radius: 25% 10%;
   mix-blend-mode: exclusion;
 }
 
 .titulo {
-  color: #838442 ;
-  font-size: 2em;
+  color: #e2e462;
+  font-weight: 800;
+  font-size: 3em;
   text-align: left;
   position: absolute;
   top: 100%;
-  left: 10%;;
+  left: 5%;
 }
 
 nav {
@@ -36,51 +39,91 @@ nav {
 }
 
 nav a {
-  color: #838442;
+  color: #e2e462;
   text-decoration: none;
   font-size: 1em;
   padding: 10px 20px;
+  font-weight: 200;
 }
+
+/* Estilos para la imagen secundaria */
 .img-secundaria {
   width: 50%;
-  margin-top: 15em; /* Aumenta o disminuye esta propiedad según tu preferencia */
+  margin-top: 19em;
   float: right;
   border-radius: 35% 10%;
   flex-shrink: 0;
   text-align: right;
   mix-blend-mode: exclusion;
-  position: relative; /* Cambia a "relative" */
-  top: 2em; /* Ajusta la posición vertical */
+  position: relative;
+  top: 2em;
+  padding:2%;
+  background: #e2e462;
 }
 
-
-
+/* Estilos para el contenido principal (main) */
 main {
-  
-  margin-top: 60px;
+  margin-top: 70px;
   text-align: left;
-  color: #838442;
+  color: #e2e462;
+  
 }
+
 p {
   display: flex;
   float: left;
-  margin-top: 25%;
+  margin-top: 30%;
+  margin-left: 5%;
   width: 400px;
   height: 300px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-weight: 400;
 }
+
 section {
   padding: 2em;
 }
 
+div.description {
+  max-width: 400px; 
+  text-align: center; 
+  margin-left: 7%;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  color: #e2e462;
+}
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 3em;;
-  color: #838442;
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;  
+}
+
+.instagram{
+  border-radius: 35% 10%;
+  padding: 10% 5%;
+  width: 500px;
+  background: #e2e462;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 2em;
+  font-style: bold;
+  color: #e2e462;
+}
+
+footer{
+  color: #e2e462;
   text-align: center;
+  font-weight: 100;
 }
