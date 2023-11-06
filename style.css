@@ -116,7 +116,7 @@ div.description {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: 400;
+  font-weight: 800;
   font-size: 2em;
   font-style: bold;
   color: #e2e462;
@@ -127,3 +127,38 @@ footer{
   text-align: center;
   font-weight: 100;
 }
+.header {
+  background-size:cover;
+  color: #e2e462;
+  text-align: center;
+  font-weight: 800;
+}
+.Sobre{
+  color: #e2e462;
+  text-align: center;
+font-size: x-small;
+text-align: center;
+font-weight: 100;
+}
+.Jam{
+  border-radius: 35% 10%;
+  padding: 10% 5%;
+  width: 400px;
+  background: #6462E4; 
+  justify-content: center;
+}
+.Grupos{
+  border-radius: 35% 10%;
+  padding: 10% 5%;
+  width: 500px;
+  background:  #62E464; 
+  justify-content: center;
+}
+.Tributo{
+  border-radius: 35% 10%;
+  padding: 10% 5%;
+  width: 500px;
+  background:  #E462E2; 
+  justify-content: center;
+}
+
