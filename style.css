@@ -19,6 +19,7 @@ header {
   height: 50vh;
   border-radius: 25% 10%;
   mix-blend-mode: exclusion;
+  display: flex;
 }
 
 .titulo {
@@ -226,5 +227,4 @@ gap: 10px;
   height: auto;
   border-radius: 10%;
   padding: 1%;
-  background: #e2e462;
 }
