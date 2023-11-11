@@ -1,4 +1,4 @@
-/* Estilos generales para todo el documento */
+
 body {
   background-color: black;
   font-family: 'Bricolage Grotesque', sans-serif;
@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* Estilos para el encabezado (header) */
+
 header {
   background-color: black;
   height: 100px;
@@ -46,7 +46,7 @@ nav a {
   font-weight: 200;
 }
 
-/* Estilos para la imagen secundaria */
+
 .img-secundaria {
   width: 50%;
   margin-top: 19em;
@@ -61,7 +61,7 @@ nav a {
   background: #e2e462;
 }
 
-/* Estilos para el contenido principal (main) */
+
 main {
   margin-top: 70px;
   text-align: left;
@@ -127,6 +127,7 @@ footer{
   text-align: center;
   font-weight: 100;
 }
+/* Index dos Sesiones */
 .header {
   background-size:cover;
   color: #e2e462;
@@ -162,3 +163,68 @@ font-weight: 100;
   justify-content: center;
 }
 
+/* Index cuatro Local */
+.mapa{
+  justify-content: center;
+}
+/* Index jam */
+.imgjam{
+  margin-left: 5%;
+  margin-right: 5%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+.imgjam img{
+  width: 95%;
+  height: auto;
+  border-radius: 10%;
+  padding: 1%;
+  background: #6462E4;
+}
+/* Index artista */
+.imgartista{
+margin-left: 5%;
+margin-right: 5%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+.imgartista img{
+  width: 95%;
+  height: auto;
+  border-radius: 10%;
+  padding: 1%;
+  background: #62E464;
+}
+/* Index tributo */
+.imgtribu{
+  margin-left: 5%;
+  margin-right: 5%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+.imgtribu img{
+  width: 95%;
+  height: auto;
+  border-radius: 10%;
+  padding: 1%;
+  background: #e462e25c;
+}
+/* Index talleres */
+
+.imgtalleres{
+margin-left: 5%;
+margin-right: 5%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+.imgtalleres img{
+  width: 95%;
+  height: auto;
+  border-radius: 10%;
+  padding: 1%;
+  background: #e2e462;
+}
