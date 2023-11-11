@@ -135,32 +135,52 @@ footer{
   font-weight: 800;
 }
 .Sobre{
-  color: #e2e462;
-  text-align: center;
-font-size: x-small;
-text-align: center;
-font-weight: 100;
+
+    color: #e2e462;
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    margin-bottom: 10px;
+    display: grid; /* Agregado */
+    grid-template-columns: 1fr; /* Agregado */
+    gap: 20px; /* Ajusta según sea necesario */
+   
+  }
+  
+.Sobre p{
+ margin-top: 0%;
+  margin-bottom: 0%;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+.Sesiones{
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  }
+  .Sesiones img{
+    width: 95%;
+    height: auto;
+  }
 .Jam{
   border-radius: 35% 10%;
   padding: 10% 5%;
-  width: 400px;
   background: #6462E4; 
-  justify-content: center;
+  
 }
 .Grupos{
   border-radius: 35% 10%;
   padding: 10% 5%;
-  width: 500px;
   background:  #62E464; 
-  justify-content: center;
+
 }
 .Tributo{
   border-radius: 35% 10%;
   padding: 10% 5%;
-  width: 500px;
   background:  #E462E2; 
-  justify-content: center;
 }
 
 /* Index cuatro Local */
