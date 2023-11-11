@@ -138,12 +138,12 @@ footer{
 
     color: #e2e462;
     text-align: center;
-    font-size: small;
+    font-size: x-small;
     font-weight: 100;
     margin-bottom: 10px;
-    display: grid; /* Agregado */
-    grid-template-columns: 1fr; /* Agregado */
-    gap: 20px; /* Ajusta según sea necesario */
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 20px; 
    
   }
   
@@ -160,6 +160,7 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  position: relative;
   }
   .Sesiones img{
     width: 95%;
@@ -182,7 +183,24 @@ footer{
   padding: 10% 5%;
   background:  #E462E2; 
 }
-
+.texto-imagen{
+position: absolute;
+top: 50%;
+left: 10%;
+font-weight: 800;
+font-size: 2em;
+font-style: bold;
+color: #e2e462;
+}
+.texto-img3{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-weight: 800;
+  font-size: 2em;
+  font-style: bold;
+  color: #e2e462;
+  }
 /* Index cuatro Local */
 .mapa{
   justify-content: center;
