@@ -140,6 +140,10 @@ footer{
 font-size: x-small;
 text-align: center;
 font-weight: 100;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+
 }
 .Jam{
   border-radius: 35% 10%;
