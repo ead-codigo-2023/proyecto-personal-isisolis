@@ -270,6 +270,9 @@ footer{
 .mapa{
   justify-content: center;
 }
+.mapa iframe {
+  border-radius: 10% 25%; 
+ }
 /* Index jam */
 .imgjam{
   margin-left: 5%;
