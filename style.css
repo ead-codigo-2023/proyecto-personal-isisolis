@@ -50,9 +50,8 @@ nav a {
 } 
 
 nav a:hover {
- /* o overline, line-through, etc. */
-  font-size: 1.5em; /* o cualquier otro tamaño */
-  font-weight: 600; /* o cualquier otro valor de peso */
+    font-size: 1.5em; 
+  font-weight: 600; 
 }
 
 .img-secundaria {
@@ -196,6 +195,54 @@ footer{
 }
 
 
+
+.Sesiones {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5px;
+}
+
+.enlace-sesion {
+  position: relative;
+  text-align: center;
+  color: #e2e462;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.texto-imagen {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  gap: 1px;
+  color: #e2e462;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.enlace-sesion:hover .texto-imagen {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Sesiones img {
+  width: 80%;
+  height: auto;
+  border-radius: 10%;
+  transition: transform 0.3s;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Sesiones a:hover img {
+  transform: scale(1.2);
+}
 
 .Jam{
   border-radius: 35% 10%;
