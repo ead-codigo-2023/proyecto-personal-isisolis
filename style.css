@@ -12,7 +12,7 @@ header {
   height: 100px;
   padding: 20px;
   position: relative;
-  margin-bottom: 35%;
+  margin-bottom: 40%;
 }
 
 .img-portada {
@@ -63,6 +63,7 @@ width: 30%;
 
 .textop {
   width: 50%;
+  margin-top: 10px;
 
 }
  .textop p {
@@ -80,7 +81,16 @@ section {
   margin-top: 30%;
   margin-bottom: 0%;
 }
-
+@media screen and (max-width: 768px) {
+  .img-secundaria {
+    width: 30%;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .instagram {
+      width: 30%;
+    }
+}
 div.description {
   max-width: 400px; 
   text-align: center; 
@@ -92,7 +102,9 @@ div.description {
 }
 
 .contenedor{
-display: flex;
+  position: relative;
+  display: inline-block;
+  text-align: center;  
 }
 
 .instagram{
