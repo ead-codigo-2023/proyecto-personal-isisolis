@@ -177,8 +177,8 @@ footer{
 
     color: #e2e462;
     text-align: center;
-    font-size: x-small;
-    font-weight: 100;
+    font-size: large;
+    font-weight: 400;
     margin-bottom: 10px;
     display: grid; 
     grid-template-columns: 1fr; 
@@ -290,6 +290,7 @@ gap: 10px;
 .imgjam a:hover img {
   transform: scale(1.2); 
 }
+
 /* Index artista */
 .imgartista{
 margin-left: 5%;
@@ -309,6 +310,10 @@ gap: 10px;
 
 .imgartista a:hover img {
   transform: scale(1.2); 
+}
+.otro {
+  font-size: x-large; 
+  font-weight: 600;
 }
 /* Index tributo */
 .imgtribu{
