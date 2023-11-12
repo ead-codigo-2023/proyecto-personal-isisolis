@@ -213,23 +213,25 @@ footer{
 
 .texto-imagen {
   position: absolute;
-  bottom: 10px;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%) scale(1);
   font-weight: 800;
   font-size: 1.5em;
   text-align: center;
-  gap: 1px;
   color: #e2e462;
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 2;
 }
 
 .enlace-sesion:hover .texto-imagen {
+  transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
 }
+
+
+
 
 .Sesiones img {
   width: 80%;
