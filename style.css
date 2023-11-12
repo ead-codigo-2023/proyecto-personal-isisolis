@@ -12,6 +12,7 @@ header {
   height: 100px;
   padding: 20px;
   position: relative;
+  margin-bottom: 35%;
 }
 
 .img-portada {
@@ -76,7 +77,6 @@ section {
   justify-content: center;
   gap: 30px;
   align-items: center;
-  flex-direction: column;
   margin-top: 30%;
   margin-bottom: 0%;
 }
@@ -92,9 +92,7 @@ div.description {
 }
 
 .contenedor{
-  position: relative;
-  display: inline-block;
-  text-align: center;  
+display: flex;
 }
 
 .instagram{
