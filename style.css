@@ -48,45 +48,37 @@ nav a {
 } 
 
 .img-secundaria {
-  width: 50%;
-  margin-top: 19em;
-  float: right;
+width: 30%;
+ 
+}
+.img-secundaria img{
+  width: 100%;
+  height: auto;
   border-radius: 35% 10%;
-  flex-shrink: 0;
-  text-align: right;
-  mix-blend-mode: exclusion;
-  position: relative;
-  top: 2em;
-  padding:2%;
+  padding: 10% 5%;
   background: #e2e462;
+
 }
 
+.textop {
+  width: 50%;
 
-main {
-  margin-top: 70px;
-  text-align: left;
-  color: #e2e462;
-  
 }
-
-p {
-  display: flex;
-  float: left;
-  margin-top: 30%;
-  margin-left: 5%;
-  width: 400px;
-  height: 300px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  text-align: center;
-  margin-bottom: 50px;
+ .textop p {
   font-size: 1.5em;
   font-weight: 400;
-}
+  color: #e2e462;
+ }
 
 section {
   padding: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30%;
+  margin-bottom: 0%;
 }
 
 div.description {
@@ -154,53 +146,56 @@ footer{
   margin-left: 5%;
   margin-right: 5%;
 }
-.Sesiones{
-  margin-left: 5%;
-  margin-right: 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+
+
+.enlace-sesion {
+  text-align: center;
+  color: #e2e462;
+  text-decoration: none;
   position: relative;
-  }
-  .Sesiones img{
-    width: 95%;
-    height: auto;
-  }
+}
+
+.texto-imagen {
+  position: absolute;
+  margin-top: -52%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  gap: 1px;
+  
+}
+
+.Sesiones img {
+  width: 25.5%;
+  height: auto;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
 .Jam{
   border-radius: 35% 10%;
-  padding: 10% 5%;
+  padding: 6% 3%;
   background: #6462E4; 
   
 }
 .Grupos{
   border-radius: 35% 10%;
-  padding: 10% 5%;
+  padding:  6% 3%;
   background:  #62E464; 
 
 }
 .Tributo{
-  border-radius: 35% 10%;
-  padding: 10% 5%;
+  border-radius: 45% 10%;
+  padding: 3% 2%;
   background:  #E462E2; 
+
 }
-.texto-imagen{
-position: absolute;
-top: 50%;
-left: 10%;
-font-weight: 800;
-font-size: 2em;
-font-style: bold;
-color: #e2e462;
-}
-.texto-img3{
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  font-weight: 800;
-  font-size: 2em;
-  font-style: bold;
-  color: #e2e462;
-  }
+
+  
 /* Index cuatro Local */
 .mapa{
   justify-content: center;
