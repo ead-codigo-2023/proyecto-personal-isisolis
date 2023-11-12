@@ -272,6 +272,7 @@ footer{
 }
 .mapa iframe {
   border-radius: 10% 25%; 
+  filter: invert(100%);
  }
 /* Index jam */
 .imgjam{
