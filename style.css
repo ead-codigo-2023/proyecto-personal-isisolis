@@ -281,17 +281,21 @@ footer{
 
   
 /* Index cuatro Local */
+.mapa {
+  margin-top: -50px; 
+}
 
 .mapa iframe {
   border-radius: 10% 25%;
   filter: invert(100%);
+  
 }
 
 .caja-texto {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .mensaje {
