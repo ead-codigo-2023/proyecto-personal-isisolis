@@ -260,16 +260,13 @@ footer{
 }
 .Tributo{
   border-radius: 45% 10%;
-  padding: 3% 2%;
+  padding: 6% 3%;
   background:  #E462E2; 
 
 }
 
   
 /* Index cuatro Local */
-.mapa {
-  justify-content: center;
-}
 
 .mapa iframe {
   border-radius: 10% 25%;
@@ -312,6 +309,7 @@ footer{
   border-radius: 5px;
   justify-items: center;
   cursor: pointer;
+  margin-top: 5%;
 }
 
 /* Index jam */
