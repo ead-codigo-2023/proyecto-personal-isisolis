@@ -128,6 +128,13 @@ div.description {
   background: #e2e462;
   margin-left: 5%;
 }
+.Proximo{
+  border-radius: 35% 10%;
+  padding: 10% 5%;
+  width: 500px;
+  background: #e2e462;
+  margin-left: 5%; 
+}
 .centrado{
   position: absolute;
   top: 50%;
@@ -272,14 +279,56 @@ div.description {
   display: inline-block;
   text-align: center;  
 }
-
-.instagram{
-  border-radius: 35% 10%;
-  padding: 10% 5%;
-  width: 500px;
-  background: #e2e462;
-  margin-left: 5%;
+.principal {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5px;
 }
+
+.enlace-index {
+  position: relative;
+  text-align: center;
+  color: #e2e462;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.texto-imagen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  color: #e2e462;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.enlace-index:hover .texto-imagen {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+
+
+
+.principal img {
+  width: 80%;
+  height: auto;
+  border-radius: 10% 45%;
+  transition: transform 0.3s;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.principal a:hover img {
+  transform: scale(1.2);
+}
+
 .centrado{
   position: absolute;
   top: 50%;
@@ -290,39 +339,7 @@ div.description {
   font-style: bold;
   color: #e2e462;
 }
-.menu{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-.Menu{
-  border-radius: 35% 10%;
-  padding: 10% 5%;
-  width: 500px;
-  background: #e2e462;
-  margin-left: 30%;
-}
-.Proximo {
-  width: 500px;
- 
 
-}
-
-.Proximo img {
-  width: 100%;
-  height: auto;
-  border-radius: 10% 35%;
-  background: #e2e462;
-  padding: 10% 5%;
-  transition: transform 0.3s;
-  margin-bottom: 0%;
-  margin-left: 50%;
-  margin-top: 10%;
-}
-
-.Proximo a:hover img {
-  transform: scale(1.2);
-}
 
 .centro{
   position: absolute;
