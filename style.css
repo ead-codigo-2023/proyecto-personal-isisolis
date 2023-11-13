@@ -267,13 +267,53 @@ footer{
 
   
 /* Index cuatro Local */
-.mapa{
+.mapa {
   justify-content: center;
 }
+
 .mapa iframe {
-  border-radius: 10% 25%; 
+  border-radius: 10% 25%;
   filter: invert(100%);
- }
+}
+
+.caja-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mensaje {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #e2e462;
+  font-weight: 600;
+}
+
+.input-correo {
+  width: 100%;
+  max-width: 170px;
+  margin-top: 10px;
+  border: 2px solid #080808;
+  background-color: transparent;
+}
+
+#formularioCorreo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formularioCorreo input[type="submit"] {
+  background-color: #e2e462;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  justify-items: center;
+  cursor: pointer;
+}
+
 /* Index jam */
 .imgjam{
   margin-left: 5%;
